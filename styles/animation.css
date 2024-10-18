@@ -1,0 +1,23 @@
+@keyframes appear {
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0px);
+
+    }
+}
+.hero-2{
+    animation: appear  1.5s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0;
+
+}
+.hero-2-image{
+    animation: appear  1.5s ease-in-out;
+    animation-timeline: view();
+    animation-range:  entry 0;
+}
+
