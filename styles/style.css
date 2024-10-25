@@ -10,26 +10,28 @@ header{
     background-color: #dc6718;
     color: #fff;
     padding: 16px;
+    display: flex;
+    flex-direction: column-reverse;
 }
 .Nav{
     display: flex; 
     justify-content: space-around;
     justify-items: center;
     align-items: baseline;
-    padding: px;
+    padding-top: 50px;
 }
 .Nav ul{
     display: flex;
     list-style: none;
     justify-content: space-between;
-    gap: 3rem;
+    gap: 4rem;
     font-size: large;
 
 }
 .Nav ul li{
     background-color: #101010;
-    padding: 10px 15px;
-    border-radius: 20px;
+    padding: 15px 20px;
+    border-radius: 30px;
     cursor: pointer;
 }
 .Nav ul li:hover{
@@ -44,8 +46,8 @@ header{
 .Nav button{
     background-color: #101010;
     color: #fff;
-    padding: 9px;
-    width: 120px;
+    padding: 14px;
+    width: 140px;
     font-size: 17px;
     cursor: pointer;
     transition: all;
@@ -54,10 +56,28 @@ header{
     background-color: #4e4c4c;
 }
 
+.top-header{
+    background-color: #070707;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    margin: -16px -20px;
+    padding: 20px 80px;
+}
+.top-p{
+    /* display: flex; */
+    gap: 50px;
+    font-size: 20px;
+}
+.top-icons{
+    font-size: 40px;
+}
+
+
 /* Hero Section */
 .Hero{
     background-image: url('../assets/Video.png');
-    height: 750px;
+    height: 900px;
     margin-top: 0px;
     
 }
