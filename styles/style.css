@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
+    /* overflow: auto; */
 }
 header{
     background-color: #dc6718;
@@ -72,6 +73,18 @@ header{
 .top-icons{
     font-size: 40px;
 }
+
+.mobile-icon{
+    font-size: 40px ;
+    visibility: hidden;
+}
+.mobile-icon .bx{
+    color: #000;
+}
+.Nav h1{
+    width: 200px;
+}
+
 
 
 /* Hero Section */
