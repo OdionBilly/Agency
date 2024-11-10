@@ -59,8 +59,8 @@
 }
 
 /* mobile Screen  */
-@media screen and (max-width: 458px) {
-        header{
+@media screen and (max-width: 458px) { 
+   header{
                 overflow: auto;
         }
   .top-header {
@@ -91,10 +91,126 @@
   /* hero section */
   .Hero{
         width: 100%;
-        height: 100vh;
-        /* width: 54vmax; */
+        height: 65vh;
   }
+
   .hero2{
-        padding: 20px 20px;
+    /* background-color: aqua; */
+     padding: 70px 0px;
+     text-align: center;
   }
+  .hero2 p{
+    font-size: 40px;
+  } 
+  .hero2 h2{
+    text-align: center;
+    margin: 28px 79px;
+  }
+  .hero2 button{
+    margin: 0px 0px;
+  }
+
+  /* hero 2 section */
+  .hero-section2{
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 0%;
+  }
+  .hero-2{
+    width: 93%;
+    margin: 0px 14px;
+    box-shadow: none;
+  }
+  .hero-2-mission{
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: 70px;
+    box-shadow: 1px 1px 25px; 
+
+  }
+  .hero-2-vision{
+    padding: 25px 15px;
+     box-shadow: 1px 1px 25px; 
+  }
+  .hero-2-image{
+    width: 100%;
+    padding: 0px 12px;
+  }
+  .hero-2-image img{
+    width: 134%;
+  }
+  /* service section  */
+  .service-section{
+    padding-left: 0px;
+  }
+  .service-section h1{
+    padding-left: 30px;
+  }
+
+  .service-cat{
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 14px;
+  }
+  .service-quality{
+    width: 92%;
+  }
+  .service-quality p{
+    margin-left:-50px;
+    font-size: 40px;
+    text-align: center;
+    width: 300px;
+  }
+  
+  .service-marketing{
+    width: 90%;
+    margin: 50px 10px;
+  }
+  .web-development{
+    align-items: center;
+    flex-direction: column;
+    row-gap: 80px;
+    margin: 0px 15px;
+  }
+  .web-development .web{
+    width: 100%;
+    background-color: antiquewhite;
+  }
+
+  /* why choose us section */
+  .choose-us{
+    flex-direction: column;
+    padding: 0%;
+  }
+.choose-us-card{
+  width: 100%;
+  margin: 0px 16px;
+}
+.choose-us .choose-us-card h1{
+  font-size: 40px;
+  margin-top: 20px;
+} 
+.choose-us img{
+  width: 390px;
+  margin-top: -80px;
+}
+
+/* project section */
+.project-section{
+  padding: 0px 0px;
+  overflow: hidden;
+}
+.project{
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 10px -15px;
+}
+.project .project-card1 img{
+  width: 108%;
+}
+/* footer */
+.footer-cards{
+  display: grid;
+}
 }
