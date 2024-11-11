@@ -58,6 +58,7 @@
   }
 }
 
+
 /* mobile Screen  */
 @media screen and (max-width: 568px) { 
    header{
@@ -72,13 +73,12 @@
     margin-top: 15px;
   }
   .Nav {
-     align-items: baseline;
+     align-items: center;
      width: 100%;
      gap: 70%;
   }
   .Nav ul {
     visibility: hidden;
-    background-color: aquamarine;
   }
   .Nav button {
     visibility: hidden;
@@ -219,4 +219,23 @@
   flex-direction: column;
   align-items: center;
 }
+}
+
+/* Tablet Screens */
+@media  only screen and (max-width: 968px) {
+  .Nav{
+    justify-content: space-between;
+    align-items: center;
+    gap: 70%;
+  }
+  .Nav ul{
+    visibility: hidden; 
+  }
+  .Nav button{
+    visibility: hidden;
+  }
+  .mobile-icon{
+    visibility: visible;
+  }
+
 }
